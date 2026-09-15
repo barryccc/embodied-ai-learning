@@ -4,14 +4,14 @@
 
 ## 一、今天做了什么
 
-- [ ] 跑通 Windows 环境体检 `check_env.ps1`，得到 `env_report_windows.txt`
-- [ ] 装好 WSL2 + Ubuntu 22.04
-- [ ] 跑通 WSL 环境体检 `check_env.sh`，得到 `env_report_linux.txt`
-- [ ] 装 Miniconda，创建 conda 环境 `embodied`（python 3.11）
-- [ ] 装 PyTorch，验证 `torch.cuda.is_available()`
-- [ ] 跑通 `hello.py`
-- [ ] 跑通 `python_basics.py`
-- [ ] 建 GitHub 仓库 `embodied-ai-learning` 并完成第一次提交
+- [x] 跑通 Windows 环境体检 `check_env.ps1`，得到 `env_report_windows.txt`
+- [x] 装好 WSL2 + Ubuntu 22.04
+- [x] 跑通 WSL 环境体检 `check_env.sh`，得到 `env_report_linux.txt`
+- [x] 装 Miniconda，创建 conda 环境 `embodied`（python 3.11）
+- [x] 装 PyTorch，验证 `torch.cuda.is_available()`
+- [x] 跑通 `hello.py`
+- [x] 跑通 `python_basics.py`
+- [x] 建 GitHub 仓库 `embodied-ai-learning` 并完成第一次提交
 
 ## 二、环境清单（把体检结果的关键结论填这里）
 
@@ -31,15 +31,14 @@
 
 > 用自己的话写 3–5 条，**不要抄教程**。写不出来就说明没真懂。
 
-1.
-2.
-3.
+主要是把环境先配置好，然后熟悉一下代码，因为太久没有写过代码了有点生疏，后面慢慢步入正轨
+
 
 ## 四、我有什么还不会
 
 > 诚实写。列在这里的每一条，就是你明天的清单。
 
--
+-目前没发现什么，因为做的都很基础，只不过git流程不熟练
 -
 
 ## 五、遇到什么报错，怎么解决的
@@ -56,4 +55,4 @@
 
 ## 七、一句话总结
 
->
+>伟大的开始
