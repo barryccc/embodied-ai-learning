@@ -1,0 +1,69 @@
+
+===== 时间 =====
+Tue Sep 15 12:43:59 CST 2026
+
+===== 系统 =====
+NAME="Ubuntu"
+VERSION="24.04.1 LTS (Noble Numbat)"
+Linux xzq 5.15.167.4-microsoft-standard-WSL2 #1 SMP Tue Nov 5 00:21:55 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+结论 : 运行在 WSL 中，发行版 = Ubuntu
+
+===== 硬件 =====
+CPU 核心数 : 16
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       834Mi        14Gi       3.0Mi       322Mi        14Gi
+磁盘 (HOME) :
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc       1007G  1.3G  955G   1% /
+
+===== 基础工具 =====
+OK   : git  ->  /usr/bin/git
+git version 2.43.0
+OK   : curl  ->  /usr/bin/curl
+OK   : wget  ->  /usr/bin/wget
+缺失 : gcc
+缺失 : make
+--- git 身份 ---
+user.name  : 
+user.email : 
+
+===== Python =====
+OK   : python3  ->  /usr/bin/python3
+Python 3.12.3
+缺失 : pip3
+
+===== Conda =====
+缺失 : conda
+
+===== GPU 透传 (WSL 能不能用显卡的关键) =====
+OK   : /dev/dxg 存在 —— WSL GPU 透传已开启
+Tue Sep 15 12:44:00 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.58.04              Driver Version: 596.21         CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3050 ...    On  |   00000000:01:00.0 Off |                  N/A |
+| N/A   55C    P0             14W /   60W |     429MiB /   4096MiB |      4%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+===== PyTorch =====
+导入失败 : No module named 'torch'
+
+===== Jupyter / VS Code server =====
+缺失 : jupyter
+OK   : code  ->  /mnt/c/Users/徐子奇/AppData/Local/Programs/Microsoft VS Code/bin/code
+
+===== 结束 =====
+体检完毕。请把 env_report_linux.txt 的内容整体复制，粘给 Claude。

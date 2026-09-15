@@ -1,0 +1,86 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260915123651
+Username: xzq\徐子奇
+RunAs User: xzq\徐子奇
+Configuration Name: 
+Machine: XZQ (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File .\check_env.ps1
+Process ID: 128096
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+===== 时间 =====
+
+2026年9月15日 12:36:51
+
+===== Windows 版本 =====
+Microsoft Windows 11 家庭版 中文版
+Version : 10.0.26200
+Build   : 26200
+Arch    : AMD64
+
+===== PowerShell 版本 =====
+5.1.26100.9444
+
+===== CPU =====
+11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+VirtualizationFirmwareEnabled : False
+
+===== 内存 =====
+31.7 GB
+
+===== 显卡 (Windows 设备管理器视角) =====
+
+
+
+
+Name          : GameViewer Virtual Display Adapter
+DriverVersion : 17.13.25.697
+
+Name          : Intel(R) UHD Graphics
+DriverVersion : 32.0.101.6881
+
+Name          : NVIDIA GeForce RTX 3050 Ti Laptop GPU
+DriverVersion : 32.0.15.9621
+
+
+
+
+===== nvidia-smi (NVIDIA 驱动) =====
+
+
+===== WSL 状态 =====
+---- wsl --version ----
+
+---- 已安装的发行版 (wsl -l -v) ----
+
+
+===== Git (Windows 端) =====
+
+
+===== VS Code =====
+code 命令可用
+
+===== 磁盘空间 =====
+
+Name Free(GB) Used(GB)
+---- -------- --------
+C    67.9     388.7
+D    157.4    297.2
+
+
+
+===== 结束 =====
+体检完毕。请把 env_report_windows.txt 的内容整体复制，粘给 Claude。
+**********************
+Windows PowerShell transcript end
+End time: 20260915123659
+**********************
