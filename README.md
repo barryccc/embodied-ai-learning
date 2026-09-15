@@ -28,8 +28,8 @@
 
 ## Week 01 · 逐日进度
 
-- **Day 1** — 环境搭建（WSL2 + conda + PyTorch）+ Python 基础 ⬅ 当前
-- Day 2 — PyTorch Tensor（shape / dtype / device / 矩阵乘法）
+- **Day 1** — 环境搭建（WSL2 + conda + PyTorch）+ Python 基础 ✅
+- **Day 2** — PyTorch Tensor（shape / dtype / device / reshape / 索引 / 矩阵乘 / CPU-GPU）⬅ 当前
 - Day 3 — nn.Module / Loss / backward / optimizer
 - Day 4 — Dataset / DataLoader
 - Day 5 — 训练 MNIST（MLP）
